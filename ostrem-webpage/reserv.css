@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+p {
+	font-family:'Crimson Text', serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0 0 30px 0;
+}
+
+.visible-desktop {
+	font-size: 13px;
+}
+
+.italic {
+	font-family:'Crimson Text', serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.grey {
+	font-family:'Crimson Text', serif;
+	font-weight: 400;
+	font-style: italic;
+	color: #95989A;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.grey2 {
+	font-family:'Crimson Text', serif;
+	font-weight: 400;
+	font-style: italic;
+	color: #95989A;
+	margin: 0 0 10px 0;
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+h1 {
+	font-family:'Crimson Text', serif;
+	font-size: 25px;
+}
+
+h2 {
+	font-family:'Crimson Text', serif;
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+
+.sok {
+	display: none;
+}
+
+header {
+	display: flex;
+	align-items: center;
+}
+
+figure{
+	margin: 0;
+}
+
+.telefon {
+	width: 20%;
+}
+
+.telefon-footer {
+	width: 37px;
+}
+
+.telefon img {
+	width: 25px;
+	margin-left: 10%;
+}
+.telefon-footer img {
+	width: 25px;
+	margin-left: 10%;
+}
+
+.logo {
+	width: 60%;	
+}
+
+.logo-footer {
+	width: 100%;	
+}
+
+.logo img {
+	width: 120px;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+
+.logo-footer img {
+	width: 120px;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+
+/* RESPONSIV MENU*/
+
+.rmm.style {
+    font-family: 'Crimson Text', serif;
+    position: relative;
+}
+
+.rmm.style .rmm-mobile li {
+  background-color: white;
+}
+
+.rmm.style ul li {
+	background-color: white;
+   border: solid 0.5px aliceblue;
+
+}
+
+.rmm.style ul {
+    background: transparent;
+    text-transform: capitalize;
+    margin-top: 1em;
+}
+
+.rmm.style ul li a {
+    color: black;
+    font-weight: 100;
+    padding: 10px 25px;
+    font-size: 13px;
+    }
+
+.rmm.style a:hover {
+background-color: #F8F8F8;
+color: #F58259;
+}
+
+.rmm-dropdown{
+  background-color: #F8F8F8;  
+}
+
+.rmm-toggled {
+  background-color: #F8F8F8;
+  min-height: auto;
+}
+
+.meny {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+}
+
+.space {
+	width: 20%;
+}
+
+.rmm-toggled-title {
+  display: none;
+}
+
+ .rmm-toggled-button {
+  margin: 0;
+  border-color: transparent;
+ }
+
+ .rmm-toggled-button span {
+  background: black; 
+
+}
+
+.article, .article-full {
+  padding-bottom: 2em;
+}
+
+.telefon p {
+	display: none;
+}
+
+section {
+	background-color: rgba(255,255,255,1);
+	padding: 5px 10px 10px 10px;
+}
+
+.full, .half, .half-dubble {
+	width: 90%;
+	margin: 5%;
+}
+
+.full h1, 
+.half h1,
+.half-dubble h1 {
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	margin: 7px auto;
+  font-family:'Crimson Text', serif;
+  font-weight: 800;
+  background-color: #FFEB93;
+  border: 0px solid #56B3CA;
+  font-size: 14px;
+  color: black;
+  padding: 7px;
+}
+
+.button:hover{
+	background-color: #FFF7D1;
+	transition: 300ms background-color ease;
+}
+
+label, input {
+  font-family:'Crimson Text', serif;
+}
+
+.sok {
+
+}
+
+.finn-begravelse {
+	text-align: center;
+	margin: 7px;
+}
+
+.finn-begravelse .field-group {
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+.field-group {
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.field-group input {
+	flex: 1;
+}
+
+.vanlige-spørsmål {
+	list-style: none;
+}
+
+.vanlige-spørsmål li a {
+	font-family:'Crimson Text', serif;
+	font-style: italic;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    }
+
+.vanlige-spørsmål a:hover {
+color: #FFEB93;
+transition: 300ms color ease;
+}
+
+footer{
+	background-color: #EDEDED;
+	padding: 10px 5px 10px 5px;
+}
+
+footer ul {
+	margin: 0;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+}
+
+	.visible-desktop {
+		display: none;
+	}
+
+
+
+@media screen and (min-width: 716px) {
+
+	.meny {
+		position: static;
+	}
+
+	.logo img {
+		width: 135px;
+	}
+
+	.sok {
+	display: block;
+}
+
+}
+
+@media screen and (min-width: 900px) {
+
+	.visible-desktop {
+		display: block;
+	}
+
+	.rmm {
+		max-width: none !important;
+	}
+	
+	.rmm.style ul {
+		display: flex;
+
+	}
+	.rmm ul li {
+		float: none;
+	}
+
+}
+
+
+
+
+
+
+

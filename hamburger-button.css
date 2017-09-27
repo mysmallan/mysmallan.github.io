@@ -1,0 +1,79 @@
+/* Icon 3 */
+
+.hamburger-button span:nth-child(1) {
+  /*top: 0px;*/
+  transform: translateY(0);
+}
+
+.hamburger-button span:nth-child(2), .hamburger-button span:nth-child(3) {
+  /*top: 10px;*/
+  transform: translateY(10px);
+}
+
+.hamburger-button span:nth-child(4) {
+  /* top: 20px;*/
+  transform: translateY(20px);
+}
+
+.hamburger-button.open span:nth-child(1),
+.hamburger-button.open span:nth-child(4) {
+  /*top: 18px;*/
+  /*left: 50%;*/
+  transform: translateX(14px) translateY(18px);
+  width: 0%;
+}
+
+.hamburger-button.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg) translate3d(6px, 6px, 0);
+}
+
+.hamburger-button.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg) translate3d(-6px, 6px, 0);
+}
+
+/*.hamburger-button.open span:nth-child(4) {
+  /*top: 18px;
+  left: 50%;
+  transform: translate3d(50%, 18px);
+  width: 0%;
+}*/
+
+.hamburger-button {
+  width: 28px;
+  height: 23px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.hamburger-button span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: black;
+  border-radius: 9px;
+  opacity: 1;
+  /*left: 0;*/
+
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg), translateX(0);
+  -webkit-transition: .1s ease-in-out;
+  -moz-transition: .1s ease-in-out;
+  -o-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+}

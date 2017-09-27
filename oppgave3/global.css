@@ -1,0 +1,895 @@
+* {
+  box-sizing: border-box;
+}
+  
+
+.bike svg {
+  width: 3.2em;
+  overflow: visible;
+  display: block;
+  margin: auto;
+}
+
+
+.cls-1, .cls-2 {
+  animation: movingWheels 0.2s ease alternate infinite;
+}
+.cls-1 {
+  animation-delay: 0.1s;
+}
+@keyframes movingWheels {
+  0% {
+    transform: translateY(.5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-.5px);
+  }
+}
+
+button {
+  font-family:'Heebo', sans-serif;
+  background-color: white;
+  border: 1px solid #56B3CA;
+  border-radius: 14px;
+  font-size: 14px;
+  color: #56B3CA;
+}
+
+input {
+  width: 25%;
+}
+
+a {
+  transition: 300ms color ease;
+  color: black;
+}
+
+.bike {
+  width: 33%;
+}
+
+.bike a img {
+  width: 3.2em;
+}
+
+.search {
+  width: 33%;
+  text-align: right;
+  display: inline;
+}
+
+.container {
+  background-color: #F0F0F0;
+  width: 100%;
+  margin: auto;
+}
+
+  .main-taiwan {
+  background-color: #E2EFE3;
+  padding-top: 0.67em;
+  max-width: 1200px;
+}
+
+  .brosti {
+    display: none;
+    } 
+
+  .first-article .ingress, .first-article h4 {
+    display: none;
+  }
+
+p {
+  font-family: 'Lora', serif;
+  color: black;
+  margin: 1em 0 1em 0;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 100;
+  color: rgba(0,0,0,.8);
+  letter-spacing: -.003em;
+}
+
+.ingress {
+  text-align: center;
+  color: rgba(0,0,0,.8);
+  font-size: 14px;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+}
+
+.heading-taiwan {
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+  color: rgba(0,0,0,.8);
+  font-size: 22px;
+  margin-top: 2em;
+
+}
+
+.header-andy {
+    font-family: 'Heebo', sans-serif;
+    text-align: center; 
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.8);
+}
+
+h3 {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    color: #F58259;
+    padding: 0;
+    margin: 0;
+  
+}
+
+h4 {
+  text-align: center;
+  color: rgba(0,0,0,.8);
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Droid Serif', serif;
+  text-align: right;
+  margin: 0;
+  padding-right: 2em;
+  max-width: 1100px;
+  color: rgba(0,0,0,.8);
+  font-size: 12px;
+}
+
+.img,
+.img-top {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.width {
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 100%;  
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5em 1em;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header {
+  width: 100%;  
+  display: flex;
+  background-color: white;
+}
+
+
+.bike img {
+  width: 17%;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 8em;
+}
+
+.logo {
+  width: 33%;
+}
+
+.article, .article-full{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+/* RESPONSIV MENU*/
+
+.rmm.style {
+    font-family: 'Heebo', sans-serif;
+    z-index: 10;
+    
+}
+
+.rmm.style .rmm-mobile li {
+  background-color: white;
+}
+
+.rmm.style ul {
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0);
+    background: transparent;
+    text-transform: capitalize; 
+}
+
+.rmm.style ul li a {
+    color: black;
+    font-weight: 100;
+    padding: 10px 25px;
+    font-size: 13px;
+    }
+
+.rmm.style a:hover {
+background-color: white;
+color: #F58259;
+}
+
+.rmm-dropdown{
+  background-color: white;  
+}
+
+.rmm-toggled {
+  background-color: white;
+  min-height: auto;
+}
+
+.meny {
+  width: 33%;
+}
+
+.rmm-toggled-title {
+  display: none;
+}
+
+ .rmm-toggled-button {
+  margin: 0;
+ }
+
+ .rmm-toggled-button span {
+  background: black; 
+}
+
+.article, .article-full {
+  padding-bottom: 2em;
+}
+
+/*Theme colours*/
+
+.article--lifestyle:hover,
+.article--lifestyle h4 {
+  color: #F58259;
+}
+
+.article--travel:hover,
+.article--travel h4 {
+  color: #B3DFB5; 
+}
+
+.article--development:hover,
+.article--development h4 {
+  color: #A659C7;
+}
+
+.article--food:hover,
+.article--food h4 {
+  color: #56B3CA;
+}
+
+.article--design:hover,
+.article--design h4 {
+  color: #FFB43C;
+}
+
+.article--environment:hover,
+.article--environment h4 {
+  color: #358113;
+}
+
+
+.article--design {
+  width: 100%;
+}
+
+
+.article h4:hover{
+  color: black;
+}
+
+.article--travel h1 {
+  margin-top: 1em; 
+}
+
+.line {
+  border-top: 1px solid #e5e5e5;
+}
+
+footer {
+  background-color: black;
+  padding: 1em;
+
+
+}
+footer p,
+footer a,
+footer .ingress {
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    font-size: 13px;
+}
+
+.knapp {
+  border-radius: 25px;
+  background: #56B3CA;
+  padding: 11px;
+  width: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.knapp {
+  text-decoration: none;
+  transition: 300ms background-color ease;
+}
+
+.knapp:hover {
+  background-color: #418596;
+}
+
+a {
+  text-decoration: none;
+}
+
+.get-updates {
+  margin: 0;
+  padding: 0;
+}
+
+form button {
+  margin-top: 2%;
+}
+
+.to-the-top a {
+  text-decoration: none;
+  margin-left: 90%;
+  color: #F58259;
+  font-weight: 800;
+}
+
+.footer-grid h4 {
+  color: white;
+}
+
+.pedalaway img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.pedalaway p {
+  margin-top: 0;
+}
+
+.footer-grid {
+  margin-bottom: 2em;
+}
+
+.img-ipad {
+  display: none;
+}
+
+.comment-form h2 {
+  font-size: 1em;
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+
+/*TAIWAN-PAGE*/
+
+
+
+.icon img {
+  width: 20px;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.icon {
+  width: 8%; 
+}
+
+.icon-title {
+  width: 20%;
+}
+
+.icon-title h4 {
+  padding: 0;
+  margin: 3px 0;
+}
+
+.comment-form {
+  width: 100%;
+  padding: 1em;  
+  margin: 0 auto;
+}
+
+.comment-form-textarea {
+  width: 100%;
+  height: 5em;
+  padding: 1em;
+}
+
+.section-full-screen, .section-half-screen {
+  padding: 0em 1em;
+}
+
+  .search {
+    display: none;
+  }
+
+  .map {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .pic-text, .pic-text-ipad, .pic-text-mobile {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center; 
+    font-style: italic;
+    color: rgba(0,0,0,.5);
+    margin: 0;
+  }
+
+  .pic-text-ipad {
+    display: none;
+  }
+
+
+  .footer-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+    .to-the-top a {
+    margin-left: 73%;
+  }
+
+    .first-article {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
+    .bike svg {
+    display: none;
+  }
+
+  .first-article h1 {
+    font-size: 17px;
+  }
+
+
+
+/*BRECKPNUKTER*/
+
+
+
+@media screen and (min-width: 330px) {
+  .bike svg {
+    display: block;
+  }
+
+ .ingress,
+ .ingress {
+    font-size: 17px;
+  }
+
+    .first-article h1 {
+    font-size: 22px;
+  }
+
+  h5 {
+  font-size: 14px;
+  }
+
+}
+
+@media screen and (min-width: 480px) {
+
+  .first-article h1 {
+    font-size: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+
+  }
+
+  h5 {
+  font-size: 16px;
+  }
+
+
+  .to-the-top a {
+    margin-left: 85%;
+  }
+
+  .brosti {
+    display: none;
+  }
+  
+  .picture {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+    .header-andy {
+    font-size: 30px;
+    margin-top: 1em;
+  }
+
+ .ingress {
+    font-size: 18px;
+  }
+
+  .main h1 {
+    font-size: 33px;
+    }
+    p {
+      font-size: 16px;
+    }
+  
+}
+
+@media screen and (min-width: 760px) {
+
+  .first-article h1 {
+    font-size: 33px;
+    max-width: 600px;
+    margin: 0 auto;
+
+  }
+
+  h5 {
+  font-size: 18px;
+  margin-right: 10em;
+  margin-bottom: 4em;
+  }
+
+  .footer-text {
+    text-align: left;
+  }
+
+  .footer {
+    padding: 1em 1em;
+  }
+
+  .knapp {
+    margin: 0;
+  }
+
+    .pic-text-mobile {
+    display: none;
+  }
+
+    .pic-text-ipad {
+    display: block;
+  }
+
+   p {
+    font-size: 18px;
+   } 
+
+  .header-andy {
+    margin-top: 3em;
+  }
+
+
+  .bike img {
+    width: 8%;
+    margin: 0 auto;
+  }
+
+
+  .logo, {
+    width: 33%
+  }
+
+  .img-top {
+    display: none;
+  }
+
+  .img-ipad {
+    display: block;
+  }
+
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 1200px;
+  }
+
+  .article {
+    width: 46%;
+    margin:  2%;
+  }
+
+    .article-full {
+    width: 100%;
+    margin: 2%;
+  }
+
+    .article-full p {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .main h1 {
+    line-height: 1.4;
+  }
+
+  .main h5 {
+    margin-top: -1em;
+    padding-right: 3em; 
+  }
+
+  .main p {
+    padding-top: 1em;
+  }
+
+  .width-footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+
+  }
+
+  .footer-grid {
+    width: 25%;
+  }
+
+
+  .to-the-top {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .pedalaway img{
+  width: 50%;
+  margin: 0;
+}
+
+.social-media {
+  margin-top: 4em;
+}
+
+  /*TAIWAN-ARTICLE*/
+
+  .main-taiwan, .main-andy {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+
+  }
+
+  .section-full-screen {
+    width: 100%;
+  }
+
+  .section-half-screen {
+    width: 50%;
+  }
+
+  .brosti {
+    display: none;
+  }
+
+  /*ANDY PAGE 760*/
+
+  h3 {
+    font-size: 40px;
+    margin: 0;
+  }
+  
+}
+@media screen and (min-width: 860px) {
+
+    .search {
+      display: block; 
+    }
+
+    .meny {
+      width: 100%;
+      margin-top: 1em;
+    }
+
+ }
+
+
+@media screen and (min-width: 880px) {
+
+      .main-taiwan, .main-andy {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+
+    .first-article h1 {
+    font-size: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+  }
+
+  h5 {
+    font-size: 20px;
+    margin-bottom: 5em;
+  }
+
+   .first-article p {
+    font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  } 
+
+
+    .footer {
+      padding: 1em 10em;
+    }
+
+    .main {
+      width: 70%;
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+
+      .bike img {
+      width: 4%;
+      margin: 0 auto;
+    }
+
+      .main h1 {
+      font-size: 30px;
+    }
+
+      .main h5 {
+      margin-top: -1em;
+      padding-right: 6em; 
+      }
+
+
+     .main p, {
+      font-size: 19px;
+    }
+
+      .pedalaway img{
+       width: 30%;
+       margin: 0;
+    }
+
+      .to-the-top a {
+      margin-left: 92%;
+    }
+
+    .article-full img {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .rmm-style {
+      padding-top: 1em;
+    }
+
+  /*TAIWAN PAGE 1200*/
+
+    .main-taiwan, .main-andy {
+      width: 70%;
+      margin: 1em auto; 
+      padding: 1em 2em 1em 2em;
+      position: relative;
+      max-width: 1200px;
+       
+    }
+
+    .section-half-screen .ingress {
+      font-size: 20px;
+    }
+
+    .brosti {
+      display: block;
+      font-family:'Heebo', sans-serif;
+      font-size: 12px;
+      width: 190px;
+      height: 20px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .brosti a, .brosti:visited {
+      text-decoration: none;
+      color: black;
+      color: rgba(0,0,0,.6);
+    }
+
+    .brosti a:hover {
+      color: white;
+
+    }
+
+    .top-pic {
+      margin-top: 2em;
+    }
+
+
+    /*ANDY-PAGE 1200*/
+    
+
+    h3 {
+      font-size: 40px;
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+}
+
+@media screen and (min-width: 1500px) {
+
+      main .ingress {
+      font-size: 25px;
+    }
+
+      .section-half-screen .ingress, .section-full-screen .ingress, {
+      font-size: 25px;
+    }
+
+    .main h1 {
+      font-size: 40px;
+    }
+
+
+    .section-half-screen h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 22px;
+      margin: 0;
+      padding: 0;
+    }
+
+
+
+}

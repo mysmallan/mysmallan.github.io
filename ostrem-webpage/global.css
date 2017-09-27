@@ -1,0 +1,517 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+.body-index {
+	background-image: url("img/white2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-hva {
+	  background-image: url("img/background2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-gjest {
+	background-image: url("img/funeral2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+p {
+	font-family:'Crimson Text', serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+
+.link-in-text {
+	font-family:'Crimson Text', serif;
+	text-decoration: underline;
+	color: black;
+}
+
+.link-in-text:hover {
+	font-family:'Crimson Text', serif;
+	text-decoration: underline;
+	color: #95989A;
+	transition: 300ms background-color ease;
+}
+
+.infotext {
+	text-align: center;
+}
+
+.visible-desktop {
+	font-size: 13px;
+}
+
+.italic {
+	font-family:'Crimson Text', serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.grey {
+	font-family:'Crimson Text', serif;
+	font-weight: 400;
+	font-style: italic;
+	color: #727272;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.grey2 {
+	font-family:'Crimson Text', serif;
+	font-weight: 400;
+	font-style: italic;
+	color: #727272;
+	margin: 0 0 10px 0;
+	max-width: 240px;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+h1 {
+	font-family:'Crimson Text', serif;
+	font-size: 25px;
+}
+
+h2 {
+	font-family:'Crimson Text', serif;
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+
+h3 {
+	margin: 0;
+	font-family: 'Crimson Text', serif;
+}
+
+.sok {
+	display: none;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+figure{
+	margin: 0;
+}
+
+.telefon {
+	width: 20%;
+}
+
+.telefon-footer, .telefon-article {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.telefon img {
+	width: 25px;
+	margin-left: 10%;
+}
+
+.telefon-footer img {
+    width: 28px;
+    margin: 4px auto;
+ }
+
+.telefon-article img {
+    width: 28px;
+    margin: 4px auto;
+ }
+
+.logo {
+	width: 60%;
+}
+
+.logo-footer {
+	width: 100%;
+}
+
+.logo img {
+	width: 120px;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+
+.logo-footer img {
+	width: 120px;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+
+/* RESPONSIV MENU*/
+
+.meny {
+	display: none;
+  	width: 100%;
+  	font-family: 'Crimson Text', serif;
+}
+
+
+.meny ul li {
+	background-color: white;
+   border: solid 0.5px aliceblue;
+
+}
+
+.meny ul {
+    margin-top: 1em;
+}
+
+.meny ul li a {
+    color: black;
+    font-weight: 100;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+.hamburger-button {
+	width: 20%;
+	border: 0;
+	background: transparent;
+	font-size: 2em;
+}
+
+.meny.visible {
+  display: block;
+}
+
+.telefon p {
+	display: none;
+}
+
+article {
+	background-color: rgba(255,255,255,0.9);
+	padding: 5px 10px 10px 10px;
+}
+
+.full, .half, .half-dubble {
+	width: auto;
+	margin: 1em;
+	padding: 2em;
+}
+
+.full h1,
+.half h1,
+.half-dubble h1 {
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	margin: 7px auto;
+  font-family:'Crimson Text', serif;
+  font-weight: 800;
+  background-color: #FFEB93;
+  border: 0px solid #56B3CA;
+  font-size: 14px;
+  color: black;
+  padding: 7px;
+}
+
+.button:hover{
+	background-color: #FFF7D1;
+	transition: 300ms background-color ease;
+}
+
+label, input {
+  font-family:'Crimson Text', serif;
+}
+
+
+.finn-begravelse {
+	text-align: center;
+	margin: 7px;
+}
+
+.finn-begravelse .field-group {
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+.field-group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.field-group input {
+	flex: 1;
+}
+
+.vanlige-spørsmål {
+	list-style: none;
+}
+
+.vanlige-spørsmål li a {
+	font-family:'Crimson Text', serif;
+	font-style: italic;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    }
+
+.vanlige-spørsmål a:hover {
+color: #95989A;
+transition: 300ms color ease;
+}
+
+footer{
+	background-color: rgba(255, 255, 255, 1);
+	padding: 10px 5px 10px 5px;
+	margin: 0 auto;
+}
+
+footer ul {
+	max-width: 1200px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+}
+
+footer li {
+	margin: 1em;
+
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.visible-desktop {
+	display: none;
+}
+
+.desc-meny {
+	display: none;
+}
+
+.sok-header {
+	display: none;
+}
+
+
+
+@media screen and (min-width: 716px) {
+
+	.sok-header {
+	display: block;
+	}
+
+	.sok-header input {
+		max-width: 140px;
+	}
+
+	.meny {
+		position: static;
+		display: block;
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+
+	.meny ul li a {
+		font-size: 16px;
+		font-weight: 400;
+		font-style: italic;
+		padding: 20px 0 20px 0;
+		display: block;
+		box-shadow: 0px 3px 5px #95989A;
+	}
+
+	.meny ul {
+		display: flex;
+		width: 100%;
+	}
+
+	.meny ul li {
+		flex: 1;
+		text-align: center;
+	}
+
+	.meny a:hover {
+		background-color: #F8F8F8;
+		color: #4B4B4B;
+		box-shadow: 0px 2px 5px #95989A;
+		transition: 300ms background-color ease;
+	}
+
+	.meny .active {
+		background-color: #F8F8F8;
+	}
+
+	.hamburger-button {
+		display: none;
+	}
+
+	.logo {
+		width: 60%;
+	}
+
+	.logo img {
+		width: 135px;
+	}
+
+	.telefon p {
+		display: block;
+		margin: 0;
+		text-align: center;
+		margin-top: 7px;
+		font-size: 14px;
+	}
+
+	.telefon {
+		width: 20%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.sok {
+		display: block;
+	}
+
+	.field-group input {
+		flex: none;
+	}
+
+	.full {
+		width: 100%;
+		height: auto;
+	}
+
+	.container {
+		width: 100%;
+		max-width: 900px;
+		margin: 1em auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.col-60 {
+		width: 60%;
+	}
+
+
+	.col-40 {
+		width: 40%;
+	}
+
+	footer ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	footer ul li:last-child {
+		width: 100%;
+	}
+
+	.logo-footer img {
+		padding: 0;
+	}
+
+}
+
+@media screen and (min-width: 900px) {
+
+	.sok-header input {
+		width: auto;
+	}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+	.field-group input {
+		width: auto;
+	}
+
+	footer ul li {
+		padding: 0 3em;
+	}
+
+	.meny ul li a {
+		font-weight: 800;
+		font-size: 18px;
+    }
+
+    .desc-meny {
+    	display: block;
+    	padding: 0;
+    	margin: 5px 0 0 0;
+    	color: #727272;
+    	font-weight: 400;
+    }
+
+    .logo img {
+    	width: 200px;
+    }
+
+    p {
+    	font-size: 18px;
+    	line-height: 1.5;
+    }
+
+    ol {
+	    font-family:'Crimson Text', serif;
+		font-weight: 400;
+		font-size: 18px;
+		margin: 0 0 30px 0;
+    }
+
+}
+
+
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px; width: 1px;
+  margin: -1px; padding: 0; border: 0;
+}
