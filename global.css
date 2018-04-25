@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Korolev', sans-serif;
   padding-top: 5em;
 }
 
@@ -15,7 +15,9 @@ ul {
 
 li {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
 }
 
 a {
@@ -27,10 +29,11 @@ p {
   font-weight: 300;
   font-size: 16px;
   margin: 0 0 1rem 0;
+  line-height: 1.5em;
 }
 
 .list-title {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 16px;
   color: black;
 }
@@ -52,8 +55,8 @@ p {
 }
 
 h2 {
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 25px;
   color: black;
   margin: 0;
   text-align: center;
@@ -85,7 +88,7 @@ h4 .right-arrow {
 }
 
 h4 .product-title {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 16px;
   color: black;
   margin-top: 0;
@@ -97,7 +100,7 @@ h5 {
   font-weight: 700;
   font-size: 19px;
   margin: 0;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Korolev', sans-serif;
 }
 
 footer {
@@ -128,7 +131,7 @@ blockquote {
 
 .description {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   color: black;
   margin: 0;
   text-align: center;
@@ -389,13 +392,14 @@ blockquote {
   }
 
   .logo-desktop {
-    display: block;
+    display: inline-block;
     margin: 0;
     font-weight: 400;
     font-size: 19px;
     color: black;
-    width: 100%;
+    width: 70%;
     text-align: right;
+    margin-bottom: 1em;
   }
 
   .meny {
@@ -404,7 +408,7 @@ blockquote {
   }
 
   .meny ul li a {
-    font-size: 20px;
+    font-size: 23px;
     display: block;
     padding: 0;
   }
@@ -451,7 +455,7 @@ blockquote {
   }
 
   .list-title {
-    font-weight: 800;
+    font-weight: 400;
     font-size: 18px;
   }
 
