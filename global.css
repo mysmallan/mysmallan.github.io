@@ -27,7 +27,7 @@ a {
 
 p {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 0 1rem 0;
   line-height: 1.5em;
 }
@@ -40,14 +40,6 @@ p {
 
 .logo-desktop {
   display: none;
-}
-
-.logo-mobile {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  font-size: 19px;
-  color: black;
 }
 
 .case .discription {
@@ -382,6 +374,12 @@ blockquote {
   justify-content: center;
 }
 
+.logo-mobile {
+  display: block;
+  width: 120px;
+  padding-bottom: 10px;
+}
+
 @media screen and (min-width: 490px) {
   body {
     padding-top: 8em;
@@ -391,14 +389,14 @@ blockquote {
     display: none;
   }
 
+  .logo-desktop-link {
+    text-align: right;
+  }
+
   .logo-desktop {
     display: inline-block;
     margin: 0;
-    font-weight: 400;
-    font-size: 19px;
-    color: black;
-    width: 70%;
-    text-align: right;
+    width: 140px;
     margin-bottom: 1em;
   }
 
