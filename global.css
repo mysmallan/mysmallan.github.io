@@ -261,31 +261,29 @@ blockquote {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 4em;
+  justify-content: space-between;
 }
 
 .farmen-presentation {
   width: 100%;
+  flex-direction: row;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  margin-top: 4em;
 }
 
 .farmen-logo {
-  height: 300px;
-  margin-top: 2em;
-  flex: 1;
+  height: 370px;
 }
 
 .farmen-logo-grid {
-  height: 300px;
-  margin-top: 2em;
-  flex: 1;
+  height: 370px;
 }
 
 .farmen-element {
-  width: 70%;
-  margin-top: 2em;
+  height: 270px;
+  margin-top: 4em;
 }
 
 .product-page {
