@@ -267,14 +267,14 @@ blockquote {
 
 .farmen-presentation {
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
   justify-content: space-between;
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 .farmen-logo {
-  height: 370px;
+  height: 500px;
 }
 
 .farmen-logo-grid {
@@ -282,8 +282,7 @@ blockquote {
 }
 
 .farmen-element {
-  height: 270px;
-  margin-top: 4em;
+  height: 300px;
 }
 
 .product-page {
@@ -544,7 +543,7 @@ blockquote {
   .about-product {
     width: 70%;
   }
-  .farmen-presentation-start {
+  .farmen-presentation, .farmen-presentation-start {
     flex-direction: row;
   }
 }
