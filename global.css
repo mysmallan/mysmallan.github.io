@@ -447,8 +447,8 @@ blockquote {
 
   .meny ul li a {
     font-size: 23px;
-    display: block;
     padding: 0;
+    width: auto;
   }
 
   .meny ul {
