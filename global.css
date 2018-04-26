@@ -219,8 +219,11 @@ blockquote {
 .meny ul li a {
   color: black;
   font-weight: 700;
-  padding: 10px 25px;
-  font-size: 15px;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 0;
 }
 
 .hamburger-button {
@@ -253,6 +256,38 @@ blockquote {
 }
 
 /*Product pages*/
+
+.farmen-presentation-start {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.farmen-presentation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.farmen-logo {
+  height: 300px;
+  margin-top: 2em;
+  flex: 1;
+}
+
+.farmen-logo-grid {
+  height: 300px;
+  margin-top: 2em;
+  flex: 1;
+}
+
+.farmen-element {
+  width: 70%;
+  margin-top: 2em;
+}
+
 .product-page {
   background-color: #e8e8e8;
 }
@@ -260,6 +295,7 @@ blockquote {
 .product-pictures img {
   margin-bottom: 1em;
   justify-content: space-between;
+  margin-top: 2em;
 }
 
 .back {
@@ -378,6 +414,10 @@ blockquote {
   display: block;
   width: 120px;
   padding-bottom: 10px;
+}
+
+.flex1 {
+  flex: 1;
 }
 
 @media screen and (min-width: 490px) {
@@ -505,6 +545,9 @@ blockquote {
 @media screen and (min-width: 1000px) {
   .about-product {
     width: 70%;
+  }
+  .farmen-presentation-start {
+    flex-direction: row;
   }
 }
 
