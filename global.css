@@ -273,16 +273,12 @@ blockquote {
   margin-top: 2em;
 }
 
-.farmen-logo {
-  height: 500px;
-}
-
-.farmen-logo-grid {
-  height: 370px;
-}
-
 .farmen-element {
   height: 300px;
+}
+
+.farmen-element:first-child {
+  padding-right: 3em;
 }
 
 .product-page {
@@ -545,6 +541,10 @@ blockquote {
   }
   .farmen-presentation, .farmen-presentation-start {
     flex-direction: row;
+  }
+
+  .farmen-logo, .farmen-logo-grid {
+    height: 500px;
   }
 }
 
