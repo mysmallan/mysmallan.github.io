@@ -277,10 +277,6 @@ blockquote {
   height: 300px;
 }
 
-.farmen-element:first-child {
-  padding-right: 3em;
-}
-
 .product-page {
   background-color: #e8e8e8;
 }
@@ -312,8 +308,7 @@ blockquote {
 
 .back-footer {
   width: 100%;
-  font-size: 22px;
-  margin-left: 1rem;
+  font-size: 38px;
 }
 
 .case {
@@ -545,6 +540,10 @@ blockquote {
 
   .farmen-logo, .farmen-logo-grid {
     height: 500px;
+  }
+
+  .farmen-element:first-child {
+    padding-right: 3em;
   }
 }
 
