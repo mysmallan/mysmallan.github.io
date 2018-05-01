@@ -155,7 +155,7 @@ blockquote {
 .container-about {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   background-color: white;
   justify-content: space-between;
@@ -166,7 +166,7 @@ blockquote {
 .container-grey {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   background-color: #e8e8e8;
   justify-content: space-between;
@@ -388,6 +388,10 @@ blockquote {
   margin-bottom: 1.5rem;
 }
 
+.contact-box-1 p, .contact-box-2 p, .contact-box-3 p, .contact-box-4 p {
+  font-size: 16px;
+}
+
 .footer-hello, footer {
   width: 100%;
 }
@@ -411,6 +415,10 @@ blockquote {
 @media screen and (min-width: 490px) {
   body {
     padding-top: 8em;
+  }
+
+  .container-about {
+    width: 80%;
   }
 
   .logo-mobile, .mobile-index-pres {
@@ -437,6 +445,7 @@ blockquote {
     font-size: 23px;
     padding: 0;
     width: auto;
+    margin: 0;
   }
 
   .meny ul {
@@ -471,6 +480,10 @@ blockquote {
 }
 
 @media screen and (min-width: 670px) {
+  .contact-box-1 p, .contact-box-2 p, .contact-box-3 p, .contact-box-4 p {
+    font-size: 20px;
+  }
+
   h5 {
     font-size: 23px;
   }
@@ -500,7 +513,7 @@ blockquote {
   .container {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     background-color: white;
     justify-content: space-between;
@@ -517,7 +530,7 @@ blockquote {
   }
 
   .text-box-top {
-    width: 100%;
+    width: 70%;
   }
 
   .grid-50 {
@@ -583,5 +596,6 @@ blockquote {
     width: 48.5%;
     padding: 6rem;
     margin-bottom: 1.5rem;
+    font-size: 20px;
   }
 }
