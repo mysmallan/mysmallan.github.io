@@ -115,6 +115,7 @@ blockquote {
 
 .full-size-product img {
   width: 100%;
+  margin-bottom: 2%;
 }
 
 .grey {
@@ -271,6 +272,7 @@ blockquote {
   display: flex;
   justify-content: space-between;
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .farmen-element {
@@ -282,9 +284,8 @@ blockquote {
 }
 
 .product-pictures img {
-  margin-bottom: 1em;
+  margin-bottom: 2%;
   justify-content: space-between;
-  margin-top: 2em;
 }
 
 .back {
@@ -316,6 +317,7 @@ blockquote {
   position: relative;
   overflow: hidden;
   margin: 0;
+  margin-bottom: 2%;
 }
 
 .case img, .product-pictures img {
@@ -339,7 +341,7 @@ blockquote {
   bottom: 0%;
   z-index: 2;
   opacity: 0;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .case:hover figcaption {
@@ -574,11 +576,6 @@ blockquote {
 
   .title {
     width: 100%;
-  }
-
-  .full-size-product img {
-    width: 100%;
-    margin-bottom: 1%;
   }
 
   .product-pictures {
