@@ -1,6 +1,6 @@
 function redirect() {
-  // document.location.href = "work.html";
-  document.location.replace("work.html");
+  document.location.href = "work.html";
+  // document.location.replace("work.html");
 }
 
 try {
