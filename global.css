@@ -610,7 +610,7 @@ blockquote {
   left: 0;
   z-index: 1;
   background-color: white;
-  transition: opacity 500ms ease;
+  transition: opacity 300ms ease;
   opacity: 1;
 }
 
@@ -636,44 +636,44 @@ html, body {
 }
 
 @media screen and (max-width: 1024px) {
-  svg.grafisk-element {
-    height: 100vh;
+  svg.grafisk-element, .splash-link {
+    height: 100%;
   }
 }
 
 svg.grafisk-element path {
-  fill: white;
-  transition: fill 100ms ease;
+  fill-opacity: 0;
+  transition: fill-opacity 100ms ease;
 }
 
-svg.grafisk-element .cls-1:hover {
+svg.grafisk-element .cls-1 {
   fill: #eabeb0;
 }
 
-svg.grafisk-element .cls-2:hover {
+svg.grafisk-element .cls-2 {
   fill: #bfced6;
 }
 
-svg.grafisk-element .cls-3:hover {
+svg.grafisk-element .cls-3 {
   fill: #4b3d2a;
 }
 
-svg.grafisk-element .cls-4:hover {
+svg.grafisk-element .cls-4 {
   fill: #fff89c;
 }
 
-svg.grafisk-element .cls-5:hover {
+svg.grafisk-element .cls-5 {
   fill: #ffa38b;
 }
 
-svg.grafisk-element .cls-6:hover {
+svg.grafisk-element .cls-6 {
   fill: #99d6ea;
 }
 
-svg.grafisk-element .cls-7:hover {
+svg.grafisk-element .cls-7 {
   fill: #154734;
 }
 
-svg.grafisk-element .cls-8:hover {
+svg.grafisk-element .cls-8 {
   fill: #1e22aa;
 }

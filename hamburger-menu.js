@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
       fader.classList.add("fade-out");
       setTimeout(function() {
         fader.classList.add("hide");
-      }, 500);
+      }, 300);
     }
   }, 1);
 });
