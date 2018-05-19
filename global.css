@@ -601,3 +601,79 @@ blockquote {
     font-size: 20px;
   }
 }
+
+.fader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+  transition: opacity 500ms ease;
+  opacity: 1;
+}
+
+.fader.fade-out {
+  opacity: 0;
+}
+
+.fader.hide {
+  display: none;
+}
+
+/* SVG */
+html, body {
+  height: 100%;
+}
+.splash-page {
+  overflow: hidden;
+  padding-top: 0 !important;
+}
+.splash-link {
+  display: block;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  svg.grafisk-element {
+    height: 100vh;
+  }
+}
+
+svg.grafisk-element path {
+  fill: white;
+  transition: fill 100ms ease;
+}
+
+svg.grafisk-element .cls-1:hover {
+  fill: #eabeb0;
+}
+
+svg.grafisk-element .cls-2:hover {
+  fill: #bfced6;
+}
+
+svg.grafisk-element .cls-3:hover {
+  fill: #4b3d2a;
+}
+
+svg.grafisk-element .cls-4:hover {
+  fill: #fff89c;
+}
+
+svg.grafisk-element .cls-5:hover {
+  fill: #ffa38b;
+}
+
+svg.grafisk-element .cls-6:hover {
+  fill: #99d6ea;
+}
+
+svg.grafisk-element .cls-7:hover {
+  fill: #154734;
+}
+
+svg.grafisk-element .cls-8:hover {
+  fill: #1e22aa;
+}
