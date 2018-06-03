@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Korolev', sans-serif;
+  font-family: "Korolev", sans-serif;
   padding-top: 5em;
 }
 
@@ -92,7 +92,7 @@ h5 {
   font-weight: 700;
   font-size: 19px;
   margin: 0;
-  font-family: 'Korolev', sans-serif;
+  font-family: "Korolev", sans-serif;
 }
 
 footer {
@@ -263,14 +263,14 @@ blockquote {
   display: flex;
   flex-direction: column;
   margin-top: 4em;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .farmen-presentation {
   width: 100%;
   flex-direction: column;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -320,7 +320,8 @@ blockquote {
   margin-bottom: 2%;
 }
 
-.case img, .product-pictures img {
+.case img,
+.product-pictures img {
   display: block;
   width: 100%;
   z-index: 1;
@@ -383,21 +384,31 @@ blockquote {
   margin-bottom: 0;
 }
 
-.contact-box-1, .contact-box-2, .contact-box-3, .contact-box-4 {
+.contact-box-1,
+.contact-box-2,
+.contact-box-3,
+.contact-box-4 {
   width: 100%;
   padding: 2rem;
   margin-bottom: 1.5rem;
 }
 
-.contact-box-1 p, .contact-box-2 p, .contact-box-3 p, .contact-box-4 p {
+.contact-box-1 p,
+.contact-box-2 p,
+.contact-box-3 p,
+.contact-box-4 p {
   font-size: 16px;
 }
 
-.footer-hello, footer {
+.footer-hello,
+footer {
   width: 100%;
 }
 
-.contact-box-1, .contact-box-2, .contact-box-3, .contact-box-4 {
+.contact-box-1,
+.contact-box-2,
+.contact-box-3,
+.contact-box-4 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -422,7 +433,8 @@ blockquote {
     width: 80%;
   }
 
-  .logo-mobile, .mobile-index-pres {
+  .logo-mobile,
+  .mobile-index-pres {
     display: none;
   }
 
@@ -476,12 +488,15 @@ blockquote {
 }
 
 .about-product a:hover {
-  color: #5A24EA;
+  color: #5a24ea;
   transition: 300ms border ease;
 }
 
 @media screen and (min-width: 670px) {
-  .contact-box-1 p, .contact-box-2 p, .contact-box-3 p, .contact-box-4 p {
+  .contact-box-1 p,
+  .contact-box-2 p,
+  .contact-box-3 p,
+  .contact-box-4 p {
     font-size: 20px;
   }
 
@@ -554,11 +569,13 @@ blockquote {
   .about-product {
     width: 70%;
   }
-  .farmen-presentation, .farmen-presentation-start {
+  .farmen-presentation,
+  .farmen-presentation-start {
     flex-direction: row;
   }
 
-  .farmen-logo, .farmen-logo-grid {
+  .farmen-logo,
+  .farmen-logo-grid {
     height: 500px;
   }
 
@@ -594,7 +611,10 @@ blockquote {
 
   /*Sayhello-page*/
 
-  .contact-box-1, .contact-box-2, .contact-box-3, .contact-box-4 {
+  .contact-box-1,
+  .contact-box-2,
+  .contact-box-3,
+  .contact-box-4 {
     width: 48.5%;
     padding: 6rem;
     margin-bottom: 1.5rem;
@@ -623,7 +643,8 @@ blockquote {
 }
 
 /* SVG */
-html, body {
+html,
+body {
   height: 100%;
 }
 .splash-page {
@@ -636,7 +657,8 @@ html, body {
 }
 
 @media screen and (max-width: 1024px) {
-  svg.grafisk-element, .splash-link {
+  svg.grafisk-element,
+  .splash-link {
     height: 100%;
   }
 }
