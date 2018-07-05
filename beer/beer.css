@@ -2,9 +2,15 @@
   display: flex;
   justify-content: center;
   background-size: cover;
-  width: 23%;
+  width: 100%;
   margin-bottom: 2%;
   max-width: 1200px;
+}
+
+@media screen and (min-width: 1000px) {
+  .space-background {
+    width: 23%;
+  }
 }
 
 .bitterboogieman {
