@@ -351,6 +351,36 @@ blockquote {
 .case:hover figcaption {
   opacity: 1;
 }
+.bike {
+  width: 30%;
+  margin-bottom: 2em;
+}
+
+.bike svg {
+  width: 5.2em;
+  overflow: visible;
+  display: block;
+  margin: auto;
+}
+
+.cls-1,
+.cls-2 {
+  animation: movingWheels 0.2s ease alternate infinite;
+}
+.cls-1 {
+  animation-delay: 0.1s;
+}
+@keyframes movingWheels {
+  0% {
+    transform: translateY(0.5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-0.5px);
+  }
+}
 
 /*About-page*/
 
@@ -528,7 +558,7 @@ footer {
   }
 
   .list-title {
-    font-weight: 400;
+    font-weight: 800;
     font-size: 18px;
   }
 
