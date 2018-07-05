@@ -33,7 +33,7 @@ p {
 }
 
 .list-title {
-  font-weight: 400;
+  font-weight: 800;
   font-size: 16px;
   color: black;
 }
@@ -307,6 +307,7 @@ blockquote {
 .profile-picture img {
   display: block;
   width: 100%;
+  padding-top: 2rem;
 }
 
 .back-footer {
